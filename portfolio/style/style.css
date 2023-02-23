@@ -50,7 +50,7 @@ h3{
 }
 .header-phone {
   padding-left:25px;
-  background-image: url("portfolio/img/icon-phone-header.svg");
+  background-image: url("..img/icon-phone-header.svg");
   background-repeat: no-repeat;
   color:#FFEB3B;
   padding-right:35px;
@@ -58,7 +58,7 @@ h3{
   text-decoration: none;
 }
 .header-email{
-  background-image: url("portfolio/img/icon-email-header.svg");
+  background-image: url("..img/icon-email-header.svg");
   background-repeat: no-repeat;
   color:#FFEB3B;
   padding-left:25px;
@@ -66,14 +66,14 @@ h3{
 }
 .footer-email{
   padding-left:25px;
-  background-image: url("portfolio/img/icon-email-footer.svg");
+  background-image: url("..img/icon-email-footer.svg");
   background-repeat: no-repeat;
   color:#5b5843;
   text-decoration: none;
 }
 .footer-phone{
   padding-left:25px;
-  background-image: url("portfolio/img/icon-phone-footer.svg");
+  background-image: url("..img/icon-phone-footer.svg");
   background-repeat: no-repeat;
   padding-right:35px;
   color:#5b5843;
