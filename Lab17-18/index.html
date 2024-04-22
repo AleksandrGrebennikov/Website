@@ -1,0 +1,213 @@
+<head>
+    <title>Metro2033</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css?v=2">
+</head>
+
+
+
+<body>
+    <div class="app">
+        <section class="app__header">
+            <img class="header__logo" src="" alt="" >
+            <h1 class="header__title">Асортимент мерча Metro2033</h1>
+            <div class="header__buttons">
+                <button class="button" id="light-mode-button">Белая</button>
+                <button class="button" id="dark-mode-button">Цветная</button>
+                <a href="" class="button">Главная</a>
+                <button id="show-favorites-btn">Показать избранное</button>
+                <button id="show-high-rating">Высокий рейтинг</button>
+                <button id="show-low-rating">Низкий Рейтинг</button>
+            </div>
+            <div class = "slider">
+              <input type="range" min="20" max="175" value="50" id="priceSlider"><p>Цена: <span id="priceValue">50</span></p>
+            </div>
+            <div class="mobile_menu">
+                <nav role="navigation">
+                    <div id="menuToggle">
+                      <input type="checkbox">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu">
+                        <a href="">Главная</a>
+                        <p>Категории:</p>
+                        <a href="#">Жетон</a>
+                        <a href="#">Часы</a>
+                        <a href="#">Одежда</a>
+                        <a href="#">Постер</a>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+
+        </section>
+
+        <section class="app__body">
+
+            <div class="app__widget">
+                <h3>Категории</h3>
+
+                <div class="categories">
+                    <a id="token" class="category button">Жетон</a>
+                    <a id="watch" class="category button">Часы</a>
+                    <a id="clothes" class="category button">Одежда</a>
+                    <a id="poster" class="category button">Постер</a>
+                </div>
+            </div>
+            <div class="products">
+                <div id="items" class="item__block">
+                    <div id="1" class="product" data-favorite ="false" data-high-rating = "true" data-low-rating="false" data-price = "20">
+                        <div class="item__header">
+                            <h3 class="item__title">Жетон Спарта</h3>
+                            <div class="item__image">
+                                <img src="img/sp.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 20 руб. </p>
+                                <p class="item__text">Рейтинг: 4.7</p>
+                                <button class="favorite-btn" type="button">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="2" class="product" data-favorite="false" data-high-rating = "false" data-low-rating="true" data-price = "70">
+                        <div class="item__header">
+                            <h3 class="item__title">Постер Metro2033</h3>
+                            <div class="item__image">
+                                <img src="img/ps1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 70 руб. </p>
+                                <p class="item__text">Рейтинг: 3.6</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="3" class="product" data-favorite="false" data-high-rating = "true" data-low-rating="false" data-price = "150">
+                        <div class="item__header">
+                            <h3 class="item__title">Часы Артёма</h3>
+                            <div class="item__image">
+                                <img src="img/ch.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 150 руб. </p>
+                                <p class="item__text">Рейтинг: 4.2</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="4" class="product" data-favorite="false" data-high-rating = "false" data-low-rating="true" data-price = "175">
+                        <div class="item__header">
+                            <h3 class="item__title">Рубашка Metro Exodus</h3>
+                            <div class="item__image">
+                                <img src="img/rb.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 175 руб.</p>
+                                <p class="item__text">Рейтинг: 3.2</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="5" class="product" data-favorite="false" data-high-rating = "true" data-low-rating="false" data-price = 45">
+                        <div class="item__header">
+                            <h3 class="item__title">Жетон "Если не мы..."</h3>
+                            <div class="item__image">
+                                <img src="img/sp2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 45 руб.</p>
+                                <p class="item__text">Рейтинг: 4.9</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="6" class="product" data-favorite="false" data-high-rating = "false" data-low-rating="true" data-price = "65">
+                        <div class="item__header">
+                            <h3 class="item__title">Постер Metro Exodus</h3>
+                            <div class="item__image">
+                                <img src="img/ps2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 65 руб.</p>
+                                <p class="item__text">Рейтинг: 3.3</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="7" class="product" data-favorite="false" data-high-rating = "true" data-low-rating="false" data-price = "65">
+                        <div class="item__header">
+                            <h3 class="item__title">Постер Metro2033 Legacy</h3>
+                            <div class="item__image">
+                                <img src="img/ps3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 65 руб.</p>
+                                <p class="item__text">Рейтинг: 5.0</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="8" class="product" data-favorite="false" data-high-rating = "false" data-low-rating="true" data-price = "75">
+                        <div class="item__header">
+                            <h3 class="item__title">Рубашка Metro Exodus v2</h3>
+                            <div class="item__image">
+                                <img src="img/rb2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item__body">
+                            <div class="item__info">
+                                <p class="item__text">Автор: </p>
+                                <p class="item__text">Дата создания: </p>
+                                <p class="item__text">Себестоимость: 75 руб.</p>
+                                <p class="item__text">Рейтинг: 3.0</p>
+                                <button class="favorite-btn">Избранное</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="script-slider.js"></script>
+    <script src="script-btn.js"></script>
+</body>
+
+</html>
